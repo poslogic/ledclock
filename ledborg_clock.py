@@ -51,27 +51,27 @@ time_m = strftime("%M", localtime())
 if time_h == '01':
 	hour_colour = [2, 2, 2] # white
 elif time_h == '02':
-	hour_colour = [0, 1, 0] # orange
+	hour_colour = [1, 1, 0] # orange
 elif time_h == '03':
-	hour_colour = [0, 0, 1] # pink
+	hour_colour = [2, 0, 1] # pink
 elif time_h == '04':
 	hour_colour = [0, 0, 2] # blue
 elif time_h == '05':
-	hour_colour = [0, 2, 0] # yellow
+	hour_colour = [2, 2, 0] # yellow
 elif time_h == '06':
-	hour_colour = [0, 1, 1] # blue red
+	hour_colour = [1, 0, 1] # blue red
 elif time_h == '07':
 	hour_colour = [0, 2, 0] # green
 elif time_h == '08':
 	hour_colour = [0, 0, 2] # blue
 elif time_h == '09':
-	hour_colour = [0, 1, 0] # red
+	hour_colour = [2, 0, 0] # red
 elif time_h == '10':
 	hour_colour = [0, 2, 2] # pea green
 elif time_h == '11':
 	hour_colour = [2, 2, 2] # white
 elif time_h == '12':
-	hour_colour = [0, 0, 2] # purple
+	hour_colour = [1, 0, 2] # purple
 else:
 	hour_colour = [0, 2, 1] # 
 
